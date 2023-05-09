@@ -80,6 +80,8 @@ switch (student_number){
     case 24:
     printf("Прізвище ім'я: Ткачук Станіслав\n");
     break;
+    default:
+    printf("Невірний номер студента\n");//виведення інформації
 }
-return 0;
+return 0;//кінець програми
 }
